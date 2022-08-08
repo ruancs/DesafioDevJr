@@ -1,0 +1,164 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Desafio S2 Holding</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css" integrity="sha512-17EgCFERpgZKcm0j0fEq1YCJuyAWdz9KUtv1EjVuaOz8pDnh/0nZxmU6BBXwaaxqoi9PQXnRWqlcDB027hgv9A==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
+    <link href="http://fonts.cdnfonts.com/css/gill-sans-mt-condensed" rel="stylesheet">
+    
+                
+  </head>
+  <body>
+    <header>
+      
+
+    </header>
+
+    <main>
+        <!--banner desktop-->
+        <div class="container-fluid">
+            <a href="#">
+                <img src="/src/img/Banner-Full-Desktop.jpg" width="100%" alt="banner-desktop">
+            </a>
+        </div>
+        <!--banner desktop-->
+
+        <!--banner MOBILE-->
+        <div class="container-mobile">
+            <a href="#">
+                <img src="/src/img/Banner-Full-Mobile.jpg" width="100%" alt="banner-desktop">
+            </a>
+        </div>        
+        <!--banner MOBILE-->
+
+        <!-- Middle -->
+        <div class="container middle">
+
+            <div class="row">
+                <div class="col-12 col-sm-6">
+                    <a href="#" target="_blank" rel="noopener noreferrer">
+                        <img src="/src/img/middle-1.jpg" width="100%" alt="">
+                    </a>
+                    
+                </div>
+                <div class="col-12 col-sm-6">
+                    <a href="#" target="_blank" rel="noopener noreferrer">
+                       <img src="/src/img/middle-2.jpg" width="100%" alt=""> 
+                    </a>
+                    
+                </div>
+                <div class="col-12 col-sm-6">
+                    <a href="#" target="_blank" rel="noopener noreferrer">
+                       <img src="/src/img/middle-3.jpg" width="100%" alt=""> 
+                    </a>
+                    
+                </div>
+                <div class="col-12 col-sm-6">
+                    <a href="#" target="_blank" rel="noopener noreferrer">
+                       <img src="/src/img/middle-4.jpg" width="100%" alt=""> 
+                    </a>
+                    
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="container middle-m">
+
+            <div class="row middle-m-slide">
+                <div class="col-12 col-sm-6">
+                    <img src="/src/img/middle-1.jpg" width="100%" alt="">
+                </div>
+                <div class="col-12 col-sm-6">
+                    <img src="/src/img/middle-2.jpg" width="100%" alt="">
+                </div>
+                <div class="col-12 col-sm-6">
+                    <img src="/src/img/middle-3.jpg" width="100%" alt="">
+                </div>
+                <div class="col-12 col-sm-6">
+                    <img src="/src/img/middle-4.jpg" width="100%" alt="">
+                </div>
+
+            </div>
+
+        </div>
+        <!-- Middle -->
+
+        <div class="vitrine">
+
+        </div>
+
+
+    </main>
+
+
+    <footer>
+
+    </footer>
+  
+
+      
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>  
+    <script src="/src/js/main.js"></script>
+    <script type="text/javascript">
+
+        $(document).ready(function(){
+
+            $('.vitrine').slick({
+                dots: true,
+                infinite: true,
+                speed: 400,
+                arrows: true,
+                slidesToShow: 4,
+                slidesToScroll: 1,
+                variableWidth: true,
+                responsive: [{
+
+                    breakpoint: 1440,
+                        settings: {
+                            slidesToShow: 4,
+                            slidesToScroll: 4,
+                            infinite: true,
+                            dots: true
+                            },
+
+                    breakpoint: 767,
+                        settings: {
+                            slidesToShow: 1,
+                            slidesToScroll: 1,
+                            infinite: true,
+                            dots: true
+                            }
+                }]
+                });
+
+                $('.middle-m-slide').slick({
+                    dots: true,
+                    infinite: true,
+                    speed: 300,
+                    arrows: true,
+                    slidesToShow: 1,
+                    slidesToScroll: 1,
+                   
+                });        
+            });
+
+
+    </script>
+    
+  </body>
+
+</html>
