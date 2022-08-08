@@ -121,6 +121,8 @@
     <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>  
     <script src="/src/js/main.js"></script>
     <script type="text/javascript">
+
+        
         
         $(document).ready(function(){
 
@@ -135,7 +137,7 @@
                 variableWidth: true,
                 responsive: [{
 
-                    breakpoint: 1440,
+                    breakpoint: 1920,
                         settings: {
                             slidesToShow: 4,
                             slidesToScroll: 4,
@@ -151,20 +153,21 @@
                             dots: true
                             }
                 }]
-                });
-
-                $('.middle-m-slide').slick({
-                    dots: true,
-                    infinite: true,
-                    speed: 300,
-                    arrows: true,
-                    slidesToShow: 1,
-                    slidesToScroll: 1,
-                   
-                });        
             });
 
-    
+                        
+            
+            $('.middle-m-slide').slick({
+                dots: true,
+                infinite: true,
+                speed: 300,
+                arrows: true,
+                slidesToShow: 1,
+                slidesToScroll: 1,
+            
+            });
+        });
+        
 
 
     </script>

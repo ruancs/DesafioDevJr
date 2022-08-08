@@ -27,6 +27,7 @@ const fetchCantao = () => {
         }
         
         function criar(){
+        
         let pname = document.querySelector('.vitrine');
         for (var i=0; i < nomeProduto.length; i++){
             let item = document.createElement('div');
@@ -41,6 +42,7 @@ const fetchCantao = () => {
             item.appendChild(img);
             item.appendChild(document.createTextNode(nomeProduto[i]));
             item.appendChild(preco);
+            $('.vitrine').slick('refresh');
             
         }
         }
