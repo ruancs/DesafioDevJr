@@ -1,4 +1,6 @@
 
+
+
 const nomeProduto = []
 
 const imagemProduto = []
@@ -21,19 +23,9 @@ const fetchCantao = () => {
         for(i=0; i < 40; i++){
           nomeProduto.push(produtos[i].productName);
           imagemProduto.push(produtos[i]['items'][1]['images'][0].imageUrl);
-          precoProduto.push(produtos[i]['items'][1]['sellers'][0]['commertialOffer']['Price']);
-        //   console.log(nomeProduto);
-          //console.log(precoProduto);
+          precoProduto.push(produtos[i]['items'][1]['sellers'][0]['commertialOffer']['Price']).toString;
         }
         
-
-
-        // for(i=0; i < produtos.length; i++){
-        //     // imagemProduto.push(produtos[i]['items'][1]['images'][2]['imageTag']);
-        //     // imagemProduto.push(produtos[i]['items'][1]['images'][2]);
-        //     // console.log(imagemProduto)
-        //   }
-
         function criar(){
         let pname = document.querySelector('.vitrine');
         for (var i=0; i < nomeProduto.length; i++){
@@ -70,6 +62,4 @@ const fetchCantao = () => {
 }
 
 fetchCantao()
-
-
 
