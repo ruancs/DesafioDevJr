@@ -16,3 +16,5 @@
 ### O CORS (Cross-origin Resource Sharing) é um mecanismo utilizado pelos navegadores para compartilhar recursos entre diferentes origens. O CORS é uma especificação do W3C e faz uso de headers do HTTP para informar aos navegadores se determinado recurso pode ser ou não acessado.
 
 ### Por padrão, navegadores atuais bloqueiam requisições é necessário permitir que o navegador envie a requisição e obtenha resposta. Basta baixar neste <a href ="https://chrome.google.com/webstore/detail/allow-cors-access-control/lhobafahddgcelffkeicbaginigeejlf">link<a> uma extensão para o chrome que permite a requisição.
+  
+  ### ✔️ Link para projeto hospedado no Vercel: https://desafio-dev-jr.vercel.app/
